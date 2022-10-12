@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "node": "16.17.0"
+  },
   "scripts": {
+    "start" : "node Server/server.js"
     "server": "cd server && nodemon server ",
     "user": "npm start --prefix user",
     "dev": "concurrently \"npm run server \" \"npm run user\"",
