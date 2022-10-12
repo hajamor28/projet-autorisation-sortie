@@ -22,6 +22,7 @@ app.get('*',(req,res)=>{
 
 
 
+
 mongoose.connect (process.env.MONGOo_URI ,err =>err? console.log(err): console.log('the DB is connected'))
 
 
